@@ -1,0 +1,7 @@
+<div>
+  <h2>Custom Color Picker</h2>
+  <mat-form-field>
+    <input matInput [(colorPicker)]="color" [style.background]="color" [value]="color" [cpPosition]="'bottom'" 
+    [cpOutputFormat]="'rgba'" [cpFallbackColor]="'rgb(0,0,1)'">
+  </mat-form-field>
+</div>
